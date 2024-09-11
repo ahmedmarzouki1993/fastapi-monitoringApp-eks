@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v6  # Keep this as is
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-monitoringApp:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-monitoringapp:latest
